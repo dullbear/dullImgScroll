@@ -18,7 +18,7 @@
 			//滚动方向
 			direction: 'left',
 			//滚动个数
-			cun: 2,
+			cun: 1,
 			//滚动速度
 			speed: 2000
 		};

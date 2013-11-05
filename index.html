@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>无标题文档</title>
+  <link href="css/reset.css" rel="stylesheet" />
+  <link href="css/scroll.css" rel="stylesheet" />
+  <style>
+.scroll{margin:0 auto;width:870px;overflow:hidden;}
+.scroll-main{width:800px;overflow:hidden;float:left;}
+.scroll-prev, .scroll-next {background-image: url("images/btn.jpg");background-repeat: no-repeat;cursor: pointer;display: block;float: left;height: 100px;
+ text-indent: -999999px;width: 30px;}
+.scroll-prev{float:left;background-position:-30px 0;}
+.scroll-prev:hover{background-position:0 0;}
+.scroll-box{overflow:hidden;width:90000px;}
+.scroll-li{float:left;width:150px;text-align:center;margin-left:10px;}
+.main-play-img{width:144px;height:94px;border:solid 3px #eee;}
+.main-play-img:hover{border:solid 3px #4373A9;}
+.scroll-link{display:block;line-height: 24px;}
+.scroll-next{float:left;background-position:-60px 0;margin-left: 10px;}
+.scroll-next:hover{background-position:-90px 0;}
+
+.scroll-top{width:150px;margin:20px 0 0 300px;}
+.up-btn,.down-btn{width:150px;display:block;height:30px;background: url('images/scroll-btn.jpg') no-repeat;text-indent: -999999px;cursor: pointer;}
+.up-btn{background-position: 0 -30px;}
+.up-btn:hover{background-position: 0 0;}
+.down-btn{background-position: 0 -60px;margin-top:10px;}
+.down-btn:hover{background-position: 0 -90px;}
+.scroll-top-main{height:535px;overflow:hidden;}
+.scroll-top-ul li{margin-top:10px;text-align: center;}
+</style>
+</head>
+
+<body>
+
+  <div class="scroll">
+    <span class="scroll-prev">左</span>
+    <div class="scroll-main">
+      <ul class="scroll-box">
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/1.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">1《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/2.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">2《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/3.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">3《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/4.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">4《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/5.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">5《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/6.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">6《黑暗之魂》剧情猜想...</a>
+        </li>
+      </ul>
+    </div>
+    <span class="scroll-next">右</span>
+  </div>
+
+  <div class="scroll" id="scrollWrap">
+    <span id="prevBtn" class="scroll-prev">左</span>
+    <div class="scroll-main">
+      <ul id="scrollBox" class="scroll-box">
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/1.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">1《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/2.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">2《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/3.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">3《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/4.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">4《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/5.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">5《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/6.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">6《黑暗之魂》剧情猜想...</a>
+        </li>
+      </ul>
+    </div>
+    <span id="nextBtn" class="scroll-next">右</span>
+  </div>
+
+
+  <div class="scroll-top" id="scroll-top">
+    <span class="up-btn" id="up-btn">向上</span>
+    <div class="scroll-top-main">
+      <ul class="scroll-top-ul" id="scroll-top-ul">
+        <li>
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/1.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">1《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li>
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/2.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">2《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li>
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/3.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">3《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li>
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/4.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">4《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li>
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/5.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">5《黑暗之魂》剧情猜想...</a>
+        </li>        
+      </ul>
+    </div>
+    <span class="down-btn" id="down-btn">向下</span>
+  </div>
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jQuery.scroll.js"></script>
+</body>
+</html>

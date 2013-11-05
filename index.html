@@ -147,5 +147,24 @@
   </div>
   <script src="js/jquery-1.9.1.min.js"></script>
   <script src="js/jQuery.scroll.js"></script>
+  <script>
+      $('.scroll').dullImgScroll({
+        'scrollWrap': '.scroll',
+        'scrollBox': '.scroll-main',
+        'boxName': '.scroll-box',
+        'nextBtn': '.scroll-next',
+        'prevBtn': '.scroll-prev'
+      });
+
+      $('#scroll-top').dullImgScroll({
+        'scrollWrap': '#scroll-top',
+        'scrollBox': '.scroll-top-main',
+        'boxName': '#scroll-top-ul',
+        'nextBtn': '#up-btn',
+        'prevBtn': '#down-btn',
+        'direction': 'top',
+        'cun': '4'
+      });
+  </script>
 </body>
 </html>

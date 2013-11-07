@@ -1,3 +1,15 @@
+/**
+* $.dullImgScroll
+* @extends jquery.1.9.1
+* @author dullBear
+* @email 1317981032@qq.com
+* @site www.dullbear.com
+* @version 1.0
+* @date 2013-11-05
+* Copyright (c) 2013-2013 dullBear
+* @example   $("#scrollWrap").dullImgScroll();
+*/
+
 (function($) {
 	//命名空间
 	var dbUI = dbUI || {};
@@ -205,21 +217,3 @@
 	};
 
 })(jQuery);
-
-$('.scroll').dullImgScroll({
-	'scrollWrap': '.scroll',
-	'scrollBox': '.scroll-main',
-	'boxName': '.scroll-box',
-	'nextBtn': '.scroll-next',
-	'prevBtn': '.scroll-prev'
-});
-
-$('#scroll-top').dullImgScroll({
-	'scrollWrap': '#scroll-top',
-	'scrollBox': '.scroll-top-main',
-	'boxName': '#scroll-top-ul',
-	'nextBtn': '#up-btn',
-	'prevBtn': '#down-btn',
-	'direction': 'top',
-	'cun': '4'
-});

@@ -1,14 +1,14 @@
 /**
-* $.dullImgScroll
-* @extends jquery.1.9.1
-* @author dullBear
-* @email 1317981032@qq.com
-* @site www.dullbear.com
-* @version 1.0
-* @date 2013-11-05
-* Copyright (c) 2013-2013 dullBear
-* @example   $("#scrollWrap").dullImgScroll();
-*/
+ * $.dullImgScroll
+ * @extends jquery.1.9.1
+ * @author dullBear
+ * @email 1317981032@qq.com
+ * @site www.dullbear.com
+ * @version 1.0
+ * @date 2013-11-05
+ * Copyright (c) 2013-2013 dullBear
+ * @example   $("#scrollWrap").dullImgScroll();
+ */
 
 (function($) {
 	//命名空间
@@ -19,8 +19,8 @@
 		var defaults = {
 			//滚动父级
 			scrollWrap: '#scrollWrap',
-			//控制显示层
-			scrollBox: '#scrollBox',
+			//控制显示层(获取高宽)
+			scrollBox: '.scrollBox',
 			//滚动内容
 			boxName: '#scrollBox',
 			//下一帧按钮
@@ -77,6 +77,7 @@
 			this.direction = this.options.direction;
 			this.cun = this.options.cun;
 			this.i = 0;
+
 			//判断是否向左滚动
 			if (this.direction == 'left') {
 				if (this.$scrollBox.width() / this.itemWidth < this.len) {
@@ -90,10 +91,9 @@
 				};
 			}
 
-			//判断是否向右滚动
-			else if (this.direction == 'top') {				
+			//判断是否向上滚动
+			else if (this.direction == 'top') {
 				if (Math.ceil(this.$scrollBox.height() / this.itemHeight) < this.len) {
-
 					//复制追加两个到尾部
 					this.$box.append(this.$box.children().clone());
 					this.$box.append(this.$box.children().clone());

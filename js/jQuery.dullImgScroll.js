@@ -18,7 +18,7 @@
 		//默认参数
 		var defaults = {
 			//用户获取滚动外层高宽以判断是否满足滚动条件
-			scrollBox: '.scrollBox',
+			scrollBox: '#scrollBox',
 			//滚动内容
 			boxName: '#scrollBox',
 			//下一帧按钮

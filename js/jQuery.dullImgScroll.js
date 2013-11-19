@@ -17,7 +17,7 @@
 	$.fn.dullImgScroll = function(options) {
 		//默认参数
 		var defaults = {
-			//控制显示层(获取高宽)
+			//用户获取滚动外层高宽以判断是否满足滚动条件
 			scrollBox: '.scrollBox',
 			//滚动内容
 			boxName: '#scrollBox',

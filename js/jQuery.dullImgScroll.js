@@ -2,7 +2,7 @@
  * $.dullImgScroll
  * @extends jquery.1.9.1
  * @author dullBear
- * @email 1317981032@qq.com
+ * @email dullbear.sheng@gmail.com
  * @site www.dullbear.com
  * @version 1.0
  * @date 2013-11-05

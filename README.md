@@ -4,9 +4,7 @@ jQuery图片滚动插件：
 
 var defaults = {
 
-	scrollWrap: '#scrollWrap', //滚动父级
-			
-	scrollBox: '#scrollBox',  //控制显示层
+	scrollBox: '#scrollBox',  //用户获取滚动外层高宽以判断是否满足滚动条件
 			
 	boxName: '#scrollBox', //滚动内容
 			
@@ -26,8 +24,6 @@ var defaults = {
 
 $('#scroll-top').dullImgScroll({
 
-        'scrollWrap': '#scroll-top',
-        
         'scrollBox': '.scroll-top-main',
         
         'boxName': '#scroll-top-ul',

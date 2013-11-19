@@ -17,8 +17,6 @@
 	$.fn.dullImgScroll = function(options) {
 		//默认参数
 		var defaults = {
-			//滚动父级
-			scrollWrap: '#scrollWrap',
 			//控制显示层(获取高宽)
 			scrollBox: '.scrollBox',
 			//滚动内容

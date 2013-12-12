@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>dullImgScroll</title>
   <link href="css/reset.css" rel="stylesheet" />
-  <link href="css/scroll.css" rel="stylesheet" />
+  <link href="css/scroll.css" rel="stylesheet" /> 
  
 </head>
 
@@ -44,13 +44,34 @@
             <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/6.jpg" class="main-play-img"></a>
           <a class="scroll-link" href="#" target="_blank">6《黑暗之魂》剧情猜想...</a>
         </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/5.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">7《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/6.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">8《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/5.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">9《黑暗之魂》剧情猜想...</a>
+        </li>
+        <li class="scroll-li">
+          <a href="http://www.17611.com/media/showvideo-46.html" target="_blank">
+            <img alt="《黑暗之魂》剧情猜想08：不死人英雄" src="images/6.jpg" class="main-play-img"></a>
+          <a class="scroll-link" href="#" target="_blank">10《黑暗之魂》剧情猜想...</a>
+        </li>
       </ul>
     </div>
     <span class="scroll-next">右</span>
+    <ul class="currentBtn"><li class="current">1</li><li>2</li></ul>
   </div>
 
   <div class="scroll" id="scrollWrap">
-    <span id="prevBtn" class="scroll-prev">左</span>
+    <span class="scroll-prev">左</span>
     <div class="scroll-main">
       <ul id="scrollBox" class="scroll-box">
         <li class="scroll-li">
@@ -85,7 +106,8 @@
         </li>
       </ul>
     </div>
-    <span id="nextBtn" class="scroll-next">右</span>
+    <span class="scroll-next">右</span>
+    <ul class="currentBtn"><li class="current">1</li><li>2</li></ul>
   </div>
 
 
@@ -121,6 +143,7 @@
       </ul>
     </div>
     <span class="down-btn" id="down-btn">向下</span>
+
   </div>
   <script src="js/jquery-1.9.1.min.js"></script>
   <script src="js/jQuery.dullImgScroll.js"></script>
@@ -129,7 +152,8 @@
         'scrollBox': '.scroll-main',
         'boxName': '.scroll-box',
         'nextBtn': '.scroll-next',
-        'prevBtn': '.scroll-prev'
+        'prevBtn': '.scroll-prev',
+        'cun':5
       });
 
       $('#scroll-top').dullImgScroll({

@@ -11,6 +11,9 @@
 .scroll-link{display:block;line-height: 24px;}
 .scroll-next{float:left;background-position:-60px 0;margin-left: 10px;}
 .scroll-next:hover{background-position:-90px 0;}
+.currentBtn{clear:both;overflow: hidden;width:80px;margin:10px auto;padding:10px;}
+.currentBtn li{width:10px;height:10px;background-color: #ccc;text-indent: -999999px;float:left;margin-left:10px;border-radius: 5px;}
+.currentBtn .current{background-color:#4886c1;cursor: pointer;}
 
 .scroll-top{width:150px;margin:20px 0 0 300px;}
 .up-btn,.down-btn{width:150px;display:block;height:30px;background: url('../images/scroll-btn.jpg') no-repeat;text-indent: -999999px;cursor: pointer;}
